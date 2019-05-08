@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tim's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Archivo|Inconsolata|VT323" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="contact-container">
+    <div class="contact-header">
+      <span class="logo">Tim Blacquier</span>
+      <a href="menu.html" class="about-hamburger"><img src="./img/hamburger_black.svg"></a>
+      <div class="header-links">
+        <a class="header-link" href="index.html">Home</a>
+        <a class="header-link" href="about.html">About</a>
+        <a class="header-link" href="projects.html">Projects</a>
+        <a class="header-link" href="contact.html"><strong><u>Contact</u></strong></a>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="about-intro">
+        <h1 class="about-title">Contact</h1>
+        <span>Have a question or want to work together?</span>
+      </div>
+      <form class="contact-form" action="https://formspree.io/tblacq87@gmail.com" method="POST">
+        <input id="name" class="contact-field" type="text" placeholder="Your Name" name="name" required>
+        <input id="email" class="contact-field" type="email" placeholder="Your Email" name="_replyto" required>
+        <textarea id="message" class="contact-field message" type="text" placeholder="Your Message" name="message"
+          required></textarea>
+        <div class="send"><button class="form-btn" type="submit">send</button></div>
+      </form>
+    </div>
+    <div class="svg-links">
+      <a href="https://github.com/timb15" target="_blank" class="svg-link">
+        <img src="./img/Github_black.svg">
+      </a>
+      <a href="https://www.linkedin.com/in/tim-blacquier" target="_blank" class="svg-link">
+        <img src="./img/LinkedIn_black.svg">
+      </a>
+      <a href="mailto:tblacq87@gmail.com" target="_blank" class="svg-link">
+        <img src="./img/Email_black.svg">
+      </a>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

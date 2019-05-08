@@ -1,0 +1,764 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+/*===========================================
+ Header styles 
+ ============================================*/
+.home-header,
+.menu-header,
+.about-header,
+.contact-header,
+.projects-header {
+  display: flex;
+  min-width: 90%;
+  height: 36px;
+  margin: 2% 5% 2%;
+}
+
+.home-header {
+  justify-content: flex-end;
+}
+
+.projects-header {
+  justify-content: space-between;
+  color: #5EFA81;
+}
+
+.menu-header,
+.about-header,
+.contact-header {
+  justify-content: space-between;
+  color: black;
+}
+
+.logo {
+  font-family: VT323;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.menu-hamburger,
+.about-hamburger {
+  width: 36px;
+  height:36px;
+}
+
+.header-link {
+  margin: 0 10px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.project-link {
+  color: #5EFA81;
+}
+
+.about-hamburger {
+  display:none
+}
+
+/*===========================================
+ Homepage styles 
+ ============================================*/
+.homepage-container {
+  display: flex;
+  background-color: black;
+  background-image: url("../img/code.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.intro {
+  width: 90%;
+  padding: 0;
+  margin: 0 5%;
+  font-size: 80px;
+  letter-spacing: -0.05em;
+  font-family: Inconsolata;
+}
+.intro-para {
+  display: flex;
+  margin: 0 40% 0 5%;
+  width: 750px;
+  font-size: 40px;
+  font-family: Archivo;
+}
+
+.enter-link { 
+  margin: 0 50% 3% 5%;
+}
+
+.enter-btn {
+  font-size: 36px;
+  padding: 0 15px;
+  font-family: Inconsolata;
+  background-color: transparent;
+  color: #5EFA81;
+  border: 1px solid #5EFA81;
+}
+
+.enter-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color:black;
+  border: none;
+}
+
+
+/*===========================================
+ Menu page styles 
+ ============================================*/
+.menu-container {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: #5EFA81 url("../img/chalkboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  margin-Bottom: 10%;
+}
+
+.menu-link {
+  margin: 10px;
+  color: black;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.menu-link:Hover {
+  color: white;
+}
+
+/*===========================================
+About page styles 
+ ============================================*/
+
+.about-container {
+  display: flex;
+  background: #F4FF81 url("../img/yellow.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.about-me{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin:  2% 5% 0;
+}
+
+.about-intro,
+.about-skills {
+  padding: 0;
+  font-size: 40px;
+  font-weight: 300;
+  width: 100%;
+  letter-spacing: -0.03em;
+  font-family: Inconsolata;
+}
+
+.about-title {
+  margin-bottom: 4%;
+}
+.profile-pic-container {
+  background-color: black;
+  width: 200px;
+  height: 217px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  box-shadow: 8px 8px 8px;
+  border: 3px solid #FFFFB3;
+  box-sizing: border-box;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.bio {
+  font-family: Archivo;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 400px;
+  margin: 8% 5% 0;
+}
+
+.skill-list {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  width: 100%;
+}
+
+.resume-link {
+    margin-left: 2%;
+}
+
+.resume-btn {
+  font-family: Inconsolata;
+  background-color: black;
+  padding: 0 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 38px;
+  text-align: center;
+  color: #F4FF81;
+  border: none;
+}
+
+.resume-btn:hover {
+  color: #5EFA81;
+}
+
+/*===========================================
+Projects page styles 
+ ============================================*/
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background-color: black;
+  background: url("../img/keyboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.projects-title {
+  margin: 60px 90% 0 5%;
+  color: #5EFA81;
+  font-size: 72px;
+  letter-spacing: -0.03em;
+  font-family: Inconsolata;
+}
+
+.projects {
+  position: relative;
+  width: 90%;
+  max-width: 1175px;
+  margin: 140px auto 0;
+}
+
+.timeline {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 137px;
+  left: 49%;
+  width: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-number {
+  color: #5EFA81;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  font-family: Inconsolata;
+  margin: 10px 0;
+}
+
+.line {
+  width: 2px;
+  height: 246.33px;
+  background-color: #5EFA81;
+  margin-left: 23px;
+}
+
+.project-container{
+  width: 400px;
+  height: 275px;
+  background: linear-gradient(to bottom, #5EFA81, white);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.info-card {
+  display: none;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.mockup {
+  width: 100%;
+  height: 100%;
+}
+
+.project-container:hover .project-img{
+  display: none;
+}
+
+.project-container:hover .info-card{
+  display: flex;
+}
+
+
+
+.left{
+  margin: 0 0 300px 0;
+  float: left;
+}
+
+.right{
+  margin: 300px 0 0 0;
+  float: right;
+}
+
+
+
+.tech-description,
+.card-name {
+  font-family: Inconsolata;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.card-name {
+  font-size: 40px;
+}
+
+.learn-btn {
+  cursor: pointer;
+  margin: auto;
+  background-color: black;
+  color: #5EFA81;
+  padding: 2px 15px;
+  font-size: 36px;
+  border: none;
+  font-family: Inconsolata;
+}
+
+.learn-btn:hover {
+  background-color: #5EFA81;
+  color: black;
+}
+
+
+/*===========================================
+Project Card styles 
+ ============================================*/
+
+.card-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.752);
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  Height: 500px;
+  margin:  -275px 0 0 -300px;
+}
+
+.card-img-container {
+  width: 100%;
+  height:65%;
+  background-color: black;
+}
+
+.card-img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #5EFA81;
+  box-sizing: border-box;
+}
+
+.card-close {
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding: 0 10px;
+  width: 18px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.2) url("../img/x_close_white.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.close-btn {
+  height: 100%;
+  width:100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  padding: 0 10px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.200)
+}
+
+.prev {
+  left: 3px;
+}
+.next {
+  right: 3px;
+}
+
+.prev:hover,
+.next:hover,
+.card-close:hover {
+  background-color: rgba(94, 250, 128, 0.5)
+}
+
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 40%;
+  padding:10px;
+  color: black;
+  background: linear-gradient(to bottom, #5EFA81, white);
+  font-family: Archivo;
+}
+
+.card-hover{
+  display: none;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/*===========================================
+Contact page styles 
+ ============================================*/
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: linear-gradient(to right, #FFFFB3, white);
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin:  0 30% 2% 5%;
+  color: black;
+}
+
+.contact-form {
+  margin-top: 5%;
+  width: 100%;
+  height: 350px;
+}
+
+.contact-field {
+  width: 60%;
+  max-width: 550px;
+  margin: 2.5px 40% 2.5px 0;
+  background-color: #BFCC50;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  border: none;
+}
+
+.message {
+  height: 225px;
+  box-sizing: border-box;
+}
+
+::placeholder{
+  color: #FFFFB3;
+}
+
+.form-btn {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 38px;
+  text-align: center;
+  padding: 0 15px;
+  background-color: black;
+  color: #FFFFB3;
+  margin-top: 10px;
+  border: none;
+}
+
+.send {
+  width: 100%;
+}
+
+/*===========================================
+ Footer links
+ ============================================*/
+.svg-links {
+  display: flex;
+  height: 36px;
+  width: 90%;
+  margin: 2% 5%;
+}
+
+.svg-link {
+  display: flex;
+  height: 36px;
+  width: 36px;
+  margin-right: 40px;
+}
+
+
+/*===========================================
+ Animations
+ ============================================*/
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #5EFA81; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #5EFA81; }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1050px) {
+
+  .intro,
+  .intro-para{
+  margin: 0 5%;
+  width: 90%;
+  }
+
+  .intro {
+    margin-top: 100px;
+    font-size: 60px;
+  }
+  .intro-para{
+    font-size: 30px;
+  }
+
+  .about-me,
+  .skills {
+    width: 90%;
+  }
+
+  .about-me {
+    margin-top: 5%;
+  }
+  .header-links {
+    display: none;
+  }
+
+  .about-hamburger {
+    display: inline-block;
+  }
+
+  .profile-pic-container {
+    height: 141px;
+    width: 130px;
+    float: left;
+    margin: 25px 15px 5px 0;
+  }
+
+  .contact {
+    width: 70%;
+    margin-right: 25%;
+  }
+  
+  .contact-field {
+    width: 80%;
+    margin-right: 20%;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .timeline {
+    top: 107px;
+    left: 15%;
+  }
+
+  .line {
+    height: 311.33px;
+  }
+  .left,
+  .right {
+    float: none;
+    margin: 0 0 73px 30%;
+  }
+
+  .svg-links {
+    width: auto;
+    margin: 30px auto 10px;
+  }
+
+  .svg-link {
+    margin: 0 20px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .intro {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  .intro-para {
+    font-size: 20px;
+  }
+
+  .enter-btn {
+    font-size: 30px;
+  }
+
+  .profile-pic-container {
+    float: none;
+    margin-left: 0;
+  }
+
+  .contact {
+    width: 90%;
+    margin-right: 0;
+  }
+  
+  .contact-field {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .timeline {
+    display: none;
+  }
+
+  .card-name {
+    margin: 5px 0 0;
+    font-size: 27px;
+  }
+
+  .learn-btn {
+    font-size: 20px;
+  }
+
+  .left,
+  .right {
+    margin: 0 auto 75px;
+    width: 275px;
+    height:186px;
+  }
+
+  .card {
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .card-img-container {
+    height: 40%;
+  }
+  .card-text{
+    height: 60%;
+  }
+
+  .next,
+  .prev {
+    top:18%;
+  }
+
+}
