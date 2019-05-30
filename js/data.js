@@ -1,8 +1,26 @@
 const projects = [
   {
     "id": 0,
-    "project_name": "Full Stack React App",
-    "description": "A React web app thst uses a REST API that I built. Users can manage courses for a school.",
+    "project_name": "Crazy Dice",
+    "description": "A two player dice game, built with React.",
+    "technologies": [
+      "JavaScript",
+      "React",
+      "Node"
+    ],
+    "icon": "./img/backpack.svg",
+    "github_link": "https://github.com/timb15/CrazyDice",
+    "img_urls": [
+      "./img/project-9.jpg",
+      "./img/project-9.1.jpg",
+      "./img/project-9.2.jpg",
+      "./img/project-9.3.jpg"
+    ]
+  },
+  {
+    "id": 1,
+    "project_name": "Course Manager",
+    "description": "A full stack React web app. Users can register or log in to manage courses for an online school through a REST API that I created.",
     "technologies": [
       "JavaScript",
       "MongoDB",
@@ -22,7 +40,7 @@ const projects = [
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "project_name": "SQL Library Manager",
     "description": "An Express web app that manages book inventory for a library. Books can be created, updated, and deleted from the database.",
     "technologies": [
@@ -42,9 +60,9 @@ const projects = [
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "project_name": "React Photo Gallery",
-    "description": "A React web app that displays photos from Flickr.",
+    "description": "A React web app that displays photos from Flickr. Users can search for specific photos or choose from one of the available catagories.",
     "technologies": [
       "JavaScript",
       "React",
@@ -61,7 +79,7 @@ const projects = [
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "project_name": "Employee Directory",
     "description": "An employee directory made from an API request. It generates 12 random employees and displays their information.",
     "technologies": [
@@ -82,7 +100,7 @@ const projects = [
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "project_name": "Phrase Hunter Game",
     "description": "A game where the user has to guess a hidden phrase.",
     "technologies": [
@@ -101,7 +119,7 @@ const projects = [
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "project_name": "Interactive Form",
     "description": "A form to register for a conference with multiple selectable options.",
     "technologies": [
@@ -121,9 +139,9 @@ const projects = [
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "project_name": "List Pagination",
-    "description": "Displays a list of students showing 10 per page. Has a search feature as well.",
+    "description": "Displays a list of students showing 10 per page with the option to search.",
     "technologies": [
       "JavaScript",
       "HTML",
@@ -138,7 +156,7 @@ const projects = [
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "project_name": "Random Quote Generator",
     "description": "A browser app that displays random quotes.",
     "technologies": [

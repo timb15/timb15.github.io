@@ -367,6 +367,9 @@ Projects page styles
   float: right;
 }
 
+.last {
+  margin-bottom: 20px;
+}
 
 
 .tech-description,
